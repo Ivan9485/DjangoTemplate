@@ -1,0 +1,60 @@
+# Python bytecode files
+*.py[cod]
+__pycache__/
+
+# Django specific files
+*.log
+*.pot
+*.pyc
+*.pyo
+*.pyd
+*.db
+*.sqlite3
+
+# Environment variables
+.env
+
+# Virtual environment
+venv/
+djangoenv/
+
+# Static files
+/staticfiles/
+/media/
+
+# Local development files
+*.swp
+*.swo
+*~
+
+# IDE files
+.vscode/
+.idea/
+
+# MacOS
+.DS_Store
+
+# Coverage reports
+htmlcov/
+.coverage
+.tox/
+
+# Pytest
+.pytest_cache/
+
+# Migrations
+*.mo
+*.pot
+*.pyc
+*.pyo
+*.pyd
+*.db
+*.sqlite3
+
+# Docker
+*.dockerfile
+docker-compose.yml
+
+# Build directories
+build/
+dist/
